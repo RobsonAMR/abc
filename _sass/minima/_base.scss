@@ -18,9 +18,9 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
- body {
+body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: #ff0;
+  color: yellow;
   background-color: #ccc;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #0000;
+  color: $link-base-color;
   text-decoration: none;
 
   &:visited {
